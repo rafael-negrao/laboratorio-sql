@@ -52,3 +52,7 @@ ADD FOREIGN KEY (forma_pagamento_id) REFERENCES forma_pagamento(id);
 ```
 
 Estas alterações permitem um melhor gerenciamento de logística, pagamentos e entrega de pedidos, essenciais para operações de venda e e-commerce.
+
+## Navegação
+- [Anterior](15-exemplo-union-all.md)
+- [Próximo](17-exercicios-sem-gabarito.md)

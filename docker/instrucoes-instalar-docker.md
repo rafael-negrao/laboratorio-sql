@@ -78,3 +78,5 @@ Este documento fornece instruções sobre como instalar o Docker em diferentes s
     - Se a versão do Docker for exibida, a instalação foi bem-sucedida.
 
 ---
+## Navegação
+- [README](../README.md)

@@ -55,3 +55,8 @@ GROUP BY
 2. **Subselect na Coluna:** No SELECT, há um subselect que calcula o total geral de vendas de todos os pedidos, fornecendo um ponto de comparação direto na mesma linha de cada resultado.
 3. **Agregação de Vendas por Cliente:** A consulta usa SUM(ic.preco_unitario * ic.quantidade) para calcular o total de vendas por cliente.
 3. **Agrupamento de Resultados:** Os resultados são agrupados por nome do cliente para garantir que o total de vendas seja calculado por cliente.
+
+
+## Navegação
+- [Anterior](08-exemplos-tipo-de-joins.md)
+- [Próximo](10-funcoes-de-agrupamento.md)

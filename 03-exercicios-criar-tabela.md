@@ -98,4 +98,7 @@ CREATE TABLE item_pedido (
 );
 ```
 
+## Navegação
+- [Anterior](02-introducao-sql.md)
+- [Próximo](04-exercicios-criar-indices.md)
 

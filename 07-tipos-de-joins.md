@@ -31,3 +31,8 @@ Joins são usados para combinar registros de duas ou mais tabelas em um banco de
 - **Uso comum**: Simplifica joins entre tabelas onde colunas com nomes idênticos devem ser combinadas.
 
 Cada tipo de join é escolhido com base nas necessidades específicas da consulta SQL e nos resultados desejados. A seleção adequada é essencial para a eficiência da consulta e precisão dos dados.
+
+
+## Navegação
+- [Anterior](06-exercicios-criar-view.md)
+- [Próximo](08-exemplos-tipo-de-joins.md)

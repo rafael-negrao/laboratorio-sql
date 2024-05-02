@@ -34,3 +34,7 @@ A DCL inclui comandos que lidam com direitos, permissões e outros controles de 
 
 Essas categorias cobrem a vasta gama de operações que podem ser realizadas em bancos de dados SQL e são essenciais para o gerenciamento e manipulação eficazes de dados.
 
+## Navegação
+- [Anterior](01-intruducao.md)
+- [Próximo](03-exercicios-criar-tabela.md)
+

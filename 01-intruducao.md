@@ -36,3 +36,7 @@ Além de desenvolver uma solução técnica, nosso compromisso é entender e ate
 - **Análise de Dados:** Utilizaremos os dados coletados para oferecer insights sobre tendências de vendas, comportamento do consumidor e eficácia operacional. Isso ajudará na tomada de decisões estratégicas e no aprimoramento contínuo do e-commerce.
 - **Melhoria Contínua:** Nossa equipe não apenas configurará o sistema, mas também monitorará e ajustará continuamente para garantir desempenho e segurança. Isso inclui atualizações regulares e recomendações baseadas em novas tecnologias e práticas de mercado.
 - **Suporte e Treinamento:** Ofereceremos suporte completo durante e após o lançamento do sistema, incluindo treinamento para que a equipe do cliente possa utilizar eficientemente o novo sistema de e-commerce.
+
+## Navegação
+- [README](README.md)
+- [Próximo](02-introducao-sql.md)

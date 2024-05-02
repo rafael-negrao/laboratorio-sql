@@ -25,3 +25,7 @@ No SQL, o operador `UNION` é utilizado para combinar os resultados de duas ou m
 ### Considerações de Uso
 - **Performance:** `UNION ALL` é mais rápido que `UNION` devido à ausência de necessidade de verificar e eliminar duplicatas.
 - **Aplicação:** Use `UNION` para resultados sem duplicatas e `UNION ALL` quando duplicatas são aceitáveis ou desejadas, ou quando a performance é uma prioridade.
+
+## Navegação
+- [Anterior](12-exemplo-having.md)
+- [Próximo](14-exemplo-union.md)

@@ -24,3 +24,8 @@ HAVING SUM(ip.quantidade) > 100;
 - **Junção de Tabelas:** A consulta junta a tabela `Produto` com a tabela `item_pedido` usando o `produto_id` para acessar a quantidade de cada item pedido.
 - **Agregação:** Utiliza a função `SUM()` para calcular o total de unidades vendidas de cada produto.
 - **Filtragem com HAVING:** Após o agrupamento dos produtos, a cláusula `HAVING` é usada para filtrar e listar apenas aqueles produtos cujas unidades vendidas totalizam mais de 100. Diferentemente da cláusula `WHERE`, que filtra linhas antes da agregação, o `HAVING` filtra os resultados após a agregação.
+
+
+## Navegação
+- [Anterior](11-exemplos-funcoes-de-agrupamento.md)
+- [Próximo](13-tipos-de-union.md)

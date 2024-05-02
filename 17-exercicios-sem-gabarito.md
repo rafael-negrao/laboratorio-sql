@@ -61,3 +61,7 @@
 ```sql
 -- desenvolver query
 ```
+
+## Navegação
+- [Anterior](16-fase2-o-escopo-aumentou.md)
+

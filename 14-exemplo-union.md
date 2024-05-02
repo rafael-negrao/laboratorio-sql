@@ -45,3 +45,7 @@ WHERE Cliente.estado IN ('PR', 'SC', 'RS');
 ```
 
 Este relatório combinado oferece uma análise diversificada que ajuda a empresa a entender melhor as demandas específicas em diferentes tempos e locais.
+
+## Navegação
+- [Anterior](13-tipos-de-union.md)
+- [Próximo](15-exemplo-union-all.md)

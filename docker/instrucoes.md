@@ -52,3 +52,7 @@ O arquivo `docker-compose.yml` configura dois serviços em um ambiente Docker Co
 - **Persistência de Dados**: Tenha em mente que a remoção de volumes com `docker-compose down -v` resultará na perda de quaisquer dados salvos nos contêineres. Use isso com cautela.
 - **Acessando os Serviços**: Após iniciar os serviços, o MySQL estará acessível em `localhost:3306`, e o CloudBeaver poderá ser acessado em `http://localhost:8978` através de qualquer navegador web.
 - **Segurança**: As senhas e outras informações sensíveis estão expostas no arquivo `docker-compose.yml`, o que é aceitável para desenvolvimento, mas deve ser tratado com mais cautela em ambientes de produção.
+
+
+## Navegação
+- [README](../README.md)

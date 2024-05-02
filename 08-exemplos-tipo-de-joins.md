@@ -69,3 +69,7 @@ FROM produto_categoria pc
 NATURAL JOIN produto prd
 NATURAL JOIN pategoria cat;
 ```
+
+## Navegação
+- [Anterior](07-tipos-de-joins.md)
+- [Próximo](09-exemplo-subselect.md)

@@ -45,3 +45,9 @@ WHERE Pedido.data_pedido BETWEEN '2023-12-31' AND '2024-01-01';
 ```
 
 Este relatório combinado proporciona uma visão completa do impacto de cada evento nas vendas, crucial para planejamento estratégico, marketing e operações.
+
+
+
+## Navegação
+- [Anterior](14-exemplo-union.md)
+- [Próximo](16-fase2-o-escopo-aumentou.md)

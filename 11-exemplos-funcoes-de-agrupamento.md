@@ -69,3 +69,7 @@ JOIN Categoria ON produto_categoria.categoria_id = Categoria.id
 GROUP BY Categoria.nome;
 ```
 
+## Navegação
+- [Anterior](10-funcoes-de-agrupamento.md)
+- [Próximo](12-exemplo-having.md)
+

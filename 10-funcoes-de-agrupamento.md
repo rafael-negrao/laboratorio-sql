@@ -29,3 +29,7 @@ As funções de agrupamento são utilizadas para realizar cálculos em um conjun
 ## 7. VAR() ou VARIANCE()
 - **Descrição:** Calcula a variância dos valores, medindo a dispersão em relação à média.
 - **Exemplo de Uso:** `VAR(population)` para analisar a variância da população entre cidades.
+
+## Navegação
+- [Anterior](09-exemplo-subselect.md)
+- [Próximo](11-exemplos-funcoes-de-agrupamento.md)
