@@ -7,6 +7,7 @@ Este projeto tem como objetivo dar os conceitos básicos da linguagem SQL.
 
 ## Instrução de como subir o ambiente
 - [Instruções de como subir o ambiente](docker%2Finstrucoes.md)
+- [Instruções de como criar conexão com o MySQL utilizando CloudBeaver](docker%2Finstrucoes-cloudbeaver.md)
 
 ## Sumário
 - [Intrudução](01-intruducao.md)
