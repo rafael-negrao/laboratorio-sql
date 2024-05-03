@@ -1,3 +1,11 @@
+# Exemplos de tipos de Join
+
+## Rodar os scripts de carga
+- [02_cliente.sql](setup-scripts%2F02_cliente.sql)
+- [03_produto.sql](setup-scripts%2F03_produto.sql)
+- [04_categoria.sql](setup-scripts%2F04_categoria.sql)
+- [05_pedido.sql](setup-scripts%2F05_pedido.sql)
+
 ## 1. INNER JOIN
 **Contexto de Negócio:** Listar todos os produtos que foram pedidos, com detalhes dos produtos e dos pedidos correspondentes.
 

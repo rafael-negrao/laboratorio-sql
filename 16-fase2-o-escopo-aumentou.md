@@ -53,6 +53,10 @@ ADD FOREIGN KEY (forma_pagamento_id) REFERENCES forma_pagamento(id);
 
 Estas alterações permitem um melhor gerenciamento de logística, pagamentos e entrega de pedidos, essenciais para operações de venda e e-commerce.
 
+## Rodar os scripts de carga
+- [06_carga-novas-tabelas.sql](setup-scripts%2F06_carga-novas-tabelas.sql)
+- [09_carga_entregas_sem_python.sql](setup-scripts%2F09_carga_entregas_sem_python.sql)
+
 ## Navegação
 - [Anterior](15-exemplo-union-all.md)
 - [Próximo](17-exercicios-sem-gabarito.md)
