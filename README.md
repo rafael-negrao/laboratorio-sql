@@ -16,7 +16,7 @@ Este projeto tem como objetivo dar os conceitos básicos da linguagem SQL.
 - [Exercícios para criar índices](04-exercicios-criar-indices.md)
 - [Exercícios para alterar tabelas](05-exercicios-alterando-tabelas.md)
 - [Exercícios para criar view](06-exercicios-criar-view.md)
-- [Tipos de joins](07-tipos-de-joins.md)
+- [Tipos de joins](07-select-tipos-de-joins.md)
 - [Exemplos de tipos de joins](08-exemplos-tipo-de-joins.md)
 - [Exemplo de subselect](09-exemplo-subselect.md)
 - [Funcoes de agrupamento](10-funcoes-de-agrupamento.md)

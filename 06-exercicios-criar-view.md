@@ -25,4 +25,4 @@ FROM
 
 ## Navegação
 - [Anterior](05-exercicios-alterando-tabelas.md)
-- [Próximo](07-tipos-de-joins.md)
+- [Próximo](07-select-tipos-de-joins.md)

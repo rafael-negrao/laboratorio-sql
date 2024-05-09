@@ -1,3 +1,42 @@
+# SELECT
+
+Expressão simplificada que representa a estrutura formal do comando `SELECT` usando a forma BNF (Backus-Naur Form), uma notação usada para expressar gramáticas livres de contexto:
+
+```
+<consulta> ::= SELECT <lista_selecao>
+               FROM <lista_tabelas>
+               [ WHERE <condicao> ]
+               [ GROUP BY <expressao_agrupamento> ]
+               [ HAVING <condicao_agrupamento> ]
+               [ ORDER BY <expressao_ordenacao> [ ASC | DESC ] ]
+
+<lista_selecao> ::= <nome_coluna> | <nome_coluna> [ , <nome_coluna> ]...
+
+<lista_tabelas> ::= <nome_tabela> | <nome_tabela> [ , <nome_tabela> ]...
+
+<condicao> ::= <expressao>
+
+<expressao_agrupamento> ::= <nome_coluna> | <nome_coluna> [ , <nome_coluna> ]...
+
+<condicao_agrupamento> ::= <condicao>
+
+<expressao_ordenacao> ::= <nome_coluna> | <nome_coluna> [ , <nome_coluna> ]...
+
+<expressao> ::= <expressao_simples> | <expressao_simples> <operador> <expressao_simples>
+<expressao_simples> ::= <nome_coluna> | <literal> | <funcao>([<nome_coluna>])
+<operador> ::= = | != | > | < | >= | <= | AND | OR | NOT
+<funcao> ::= COUNT | SUM | AVG | MIN | MAX | ...
+```
+
+## Explicação da Expressão BNF:
+
+- **`<consulta>`**: Define a estrutura geral de uma consulta SQL usando `SELECT`. Inclui cláusulas opcionais para condições, agrupamentos, condições de grupo e ordenação.
+- **`<lista_selecao>`**: Lista de colunas a serem selecionadas. Pode incluir várias colunas separadas por vírgulas.
+- **`<lista_tabelas>`**: Lista de tabelas de onde os dados são extraídos. Pode também incluir várias tabelas separadas por vírgulas.
+- **`<condicao>`, `<condicao_agrupamento>`**: Condições usadas para filtrar resultados na cláusula `WHERE` e para condições após um `GROUP BY` na cláusula `HAVING`.
+- **`<expressao_agrupamento>`, `<expressao_ordenacao>`**: Especificam as colunas pelas quais os dados devem ser agrupados ou ordenados.
+- **`<expressao>`**: Define expressões, que podem ser simples referências a colunas, literais, operações entre valores ou chamadas a funções de agregação.
+
 # Tipos de Joins em SQL
 
 Joins são usados para combinar registros de duas ou mais tabelas em um banco de dados, baseados em colunas relacionadas entre as tabelas. Abaixo estão os tipos principais de joins e suas características:
