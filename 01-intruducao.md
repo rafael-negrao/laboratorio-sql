@@ -19,7 +19,7 @@ Nós somos uma consultoria de desenvolvimento de software. Recebemos o desafio d
   - **Pedido:** Registra os detalhes de cada compra realizada, incluindo referências ao cliente, a forma de pagamento, e o status do pedido.
   - **ItemPedido:** Detalha os itens específicos em cada pedido, incluindo produto, quantidade e preço.
 
-#### Fase 2: Implementação das Tabelas de Forma de Pagamento e Transportadora
+### Fase 2: Implementação das Tabelas de Forma de Pagamento e Transportadora
 **Objetivo:** Expandir a infraestrutura do banco de dados para incluir gestão de pagamentos e logística de entrega.
 
 #### Modelo de entidade de relacionamento (MER)
