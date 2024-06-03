@@ -22,7 +22,7 @@ WHERE Pedido.data_pedido BETWEEN '2022-11-24' AND '2022-11-25';
 SELECT Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2022-12-31' AND '2022-01-01';
+WHERE Pedido.data_pedido BETWEEN '2022-12-26' AND '2023-01-01';
 ```
 
 ### Combinação dos Cenários com UNION ALL
@@ -39,7 +39,7 @@ UNION ALL
 SELECT 'Ano Novo' AS Evento, Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2022-12-31' AND '2022-01-01';
+WHERE Pedido.data_pedido BETWEEN '2022-12-26' AND '2023-01-01';
 ```
 
 Este relatório combinado proporciona uma visão completa do impacto de cada evento nas vendas, crucial para planejamento estratégico, marketing e operações.
