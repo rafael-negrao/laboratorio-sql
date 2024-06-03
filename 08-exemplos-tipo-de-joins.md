@@ -41,6 +41,7 @@ WHERE prd.id IS NULL;
 ## 4. FULL OUTER JOIN
 **Contexto de Negócio:** Obter uma lista completa de todos os clientes e todos os pedidos, para uma visão completa do engajamento do cliente.
 
+**O FULL OUTER JOIN NÃO É SUPORTADO NO MYSQL**
 ```sql
 SELECT c.nome AS ClienteNome, p.id AS PedidoID
 FROM cliente c
@@ -68,15 +69,6 @@ JOIN produto prd2 ON pc2.produto_id = prd2.id
 JOIN categoria cat ON pc1.categoria_id = cat.id;
 ```
 
-## 7. NATURAL JOIN
-**Contexto de Negócio:** Facilmente associar produtos com suas categorias quando os nomes das colunas são idênticos entre as tabelas, como um campo comum `categoria_id`.
-
-```sql
-SELECT prd.nome AS ProdutoNome, cat.nome AS CategoriaNome
-FROM produto_categoria pc
-NATURAL JOIN produto prd
-NATURAL JOIN pategoria cat;
-```
 
 ## Navegação
 - [Anterior](07-select-tipos-de-joins.md)
