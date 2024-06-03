@@ -12,7 +12,7 @@ Uma empresa deseja analisar a atividade de pedidos em duas condições diferente
 SELECT Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-12-24' AND '2023-12-26';
+WHERE Pedido.data_pedido BETWEEN '2022-12-24' AND '2022-12-26';
 ```
 
 ### Cenário 2: Pedidos na Região Sul
@@ -33,10 +33,8 @@ WHERE Cliente.estado IN ('PR', 'SC', 'RS');
 SELECT 'Natal' AS Evento, Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-12-24' AND '2023-12-26'
-
+WHERE Pedido.data_pedido BETWEEN '2022-12-24' AND '2022-12-26'
 UNION
-
 -- Pedidos na região Sul
 SELECT 'Região Sul' AS Evento, Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
