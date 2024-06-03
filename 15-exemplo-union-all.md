@@ -12,7 +12,7 @@ Uma empresa deseja analisar o impacto de promoções e feriados específicos nas
 SELECT Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-11-24' AND '2023-11-25';
+WHERE Pedido.data_pedido BETWEEN '2022-11-24' AND '2022-11-25';
 ```
 
 ### Cenário 2: Pedidos Durante o Ano Novo
@@ -22,7 +22,7 @@ WHERE Pedido.data_pedido BETWEEN '2023-11-24' AND '2023-11-25';
 SELECT Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-12-31' AND '2024-01-01';
+WHERE Pedido.data_pedido BETWEEN '2022-12-31' AND '2022-01-01';
 ```
 
 ### Combinação dos Cenários com UNION ALL
@@ -33,15 +33,13 @@ WHERE Pedido.data_pedido BETWEEN '2023-12-31' AND '2024-01-01';
 SELECT 'Black Friday' AS Evento, Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-11-24' AND '2023-11-25'
-
+WHERE Pedido.data_pedido BETWEEN '2022-11-24' AND '2022-11-25'
 UNION ALL
-
 -- Pedidos durante o Ano Novo
 SELECT 'Ano Novo' AS Evento, Pedido.id AS PedidoID, Pedido.data_pedido AS DataPedido, Cliente.nome AS ClienteNome
 FROM Pedido
 JOIN Cliente ON Pedido.cliente_id = Cliente.id
-WHERE Pedido.data_pedido BETWEEN '2023-12-31' AND '2024-01-01';
+WHERE Pedido.data_pedido BETWEEN '2022-12-31' AND '2022-01-01';
 ```
 
 Este relatório combinado proporciona uma visão completa do impacto de cada evento nas vendas, crucial para planejamento estratégico, marketing e operações.
